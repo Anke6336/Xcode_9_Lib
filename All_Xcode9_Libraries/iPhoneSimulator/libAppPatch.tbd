@@ -1,0 +1,10 @@
+--- !tapi-tbd-v3
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: F6651821-4446-31D8-8080-667073D74CAF', 'x86_64: 30B7B785-51B1-39CF-90E2-ACF61508A666' ]
+platform:        ios
+install-name:    /usr/lib/libAppPatch.dylib
+objc-constraint: none
+exports:         
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _MIApplyAppPatch ]
+...
